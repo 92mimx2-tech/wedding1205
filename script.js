@@ -235,7 +235,7 @@ marker
 );
 
 ```javascript
-Kakao.init('여기에_카카오_자바스크립트키');
+Kakao.init('자바스크립트키');
 
 function shareKakao(){
 
