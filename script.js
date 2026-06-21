@@ -182,4 +182,13 @@ webUrl:window.location.href
 }
 
 
+AOS.init({
+
+duration:1200,
+
+once:true
+
+});
+
+
 
