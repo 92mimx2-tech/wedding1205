@@ -1,0 +1,44 @@
+body{
+margin:0;
+font-family:'Noto Serif KR',serif;
+color:#666;
+background:#fffaf8;
+text-align:center;
+line-height:1.8;
+}
+
+.main-photo{
+width:100%;
+display:block;
+}
+
+.cover-text{
+padding:40px 20px;
+}
+
+h1{
+font-weight:400;
+font-size:32px;
+}
+
+h2{
+margin-bottom:30px;
+font-size:22px;
+font-weight:400;
+letter-spacing:3px;
+}
+
+section{
+padding:70px 25px;
+}
+
+.gallery img{
+width:100%;
+margin-bottom:20px;
+border-radius:15px;
+}
+
+#countdown{
+font-size:28px;
+color:#bf9875;
+}
