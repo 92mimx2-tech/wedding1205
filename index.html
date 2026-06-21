@@ -20,7 +20,8 @@
 </head>
 
 <body>
-
+<div id="progress-bar"></div>
+    
 <!-- 메인 -->
 <section class="cover">
 
@@ -68,6 +69,7 @@
 <!-- 초대글 -->
 <section
 class="invitation"
+id="invitation"
 data-aos="fade-up">
 
     <h2>INVITATION</h2>
@@ -93,7 +95,8 @@ data-aos="fade-up">
 
 
 <!-- 혼주 소개 -->
-<section class="family">
+<section class="family"
+id="family">
 
     <div class="family-text">
 
@@ -110,7 +113,8 @@ data-aos="fade-up">
 
 
 <!-- 예식 정보 -->
-<section class="wedding-info">
+<section class="wedding-info"
+id="wedding-info">
 
     <h2>WEDDING DAY</h2>
 
@@ -126,12 +130,45 @@ data-aos="fade-up">
 
 </section>
 
+
+<!-- 달력 -->
 <section class="calendar">
 
 <h2>CALENDAR</h2>
 
-<img
-src="images/calendar.png">
+<table>
+
+<tr>
+
+<th>SUN</th>
+<th>MON</th>
+<th>TUE</th>
+<th>WED</th>
+<th>THU</th>
+<th>FRI</th>
+
+<th>SAT</th>
+
+</tr>
+
+<tr>
+
+<td></td>
+
+<td>1</td>
+<td>2</td>
+<td>3</td>
+<td>4</td>
+
+<td class="wedding-day">
+5
+</td>
+
+<td>6</td>
+
+</tr>
+
+</table>
 
 </section>
 
@@ -159,6 +196,7 @@ href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
 
 <section
 class="gallery"
+id="gallery"
 data-aos="fade-up">
 
 <h2>GALLERY</h2>
@@ -208,7 +246,8 @@ data-lightbox="gallery">
 
 ```html
 <!-- 오시는 길 -->
-<section class="location">
+<section class="location" 
+    id="location">
 
     <h2>LOCATION</h2>
 
@@ -259,7 +298,8 @@ data-lightbox="gallery">
 
 <!-- 마음 전하실 곳 -->
 ```html
-<section class="account">
+<section class="account"
+    id="account">
 
 <h2>ACCOUNT</h2>
 
@@ -450,6 +490,17 @@ onclick="musicToggle()">
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.4/js/lightbox.min.js"></script>
     
+<div class="floating-menu">
+
+<a href="#top">🏠</a>
+
+<a href="#gallery">📷</a>
+
+<a href="#location">📍</a>
+
+<a href="#account">💌</a>
+
+</div>
 </body>
 
     
@@ -459,7 +510,11 @@ onclick="musicToggle()">
 
 <br><br>
 
-2026.12.05
+2026.12.05 SAT AM 10:00
+
+<br><br>
+
+안양 더파티움 라포레홀 7층
 
 </footer>
 </html>
