@@ -434,3 +434,32 @@ font-size:22px;
 
 }
 
+
+.calendar table{
+
+width:100%;
+
+max-width:450px;
+
+margin:auto;
+
+border-collapse:collapse;
+
+}
+
+.calendar td,
+.calendar th{
+
+padding:15px;
+
+}
+
+.wedding-day{
+
+background:#9eb6d8;
+
+color:white;
+
+border-radius:50%;
+
+}
