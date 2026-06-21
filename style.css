@@ -1,44 +1,137 @@
+```css
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
 body{
-margin:0;
-font-family:'Noto Serif KR',serif;
-color:#666;
-background:#fffaf8;
-text-align:center;
-line-height:1.8;
-}
-
-.main-photo{
-width:100%;
-display:block;
-}
-
-.cover-text{
-padding:40px 20px;
-}
-
-h1{
-font-weight:400;
-font-size:32px;
-}
-
-h2{
-margin-bottom:30px;
-font-size:22px;
-font-weight:400;
-letter-spacing:3px;
+    background:#faf9f7;
+    color:#444;
+    font-family:'Noto Serif KR', serif;
+    line-height:1.9;
+    text-align:center;
 }
 
 section{
-padding:70px 25px;
+    padding:80px 25px;
 }
 
-.gallery img{
-width:100%;
-margin-bottom:20px;
-border-radius:15px;
+h1{
+    font-size:34px;
+    font-weight:400;
+    color:#333;
+    margin-bottom:30px;
+}
+
+h2{
+    font-size:14px;
+    letter-spacing:4px;
+    font-weight:400;
+    color:#9eb6d8;
+    margin-bottom:40px;
+}
+
+.main-image{
+    width:100%;
+    display:block;
+}
+
+.cover-text{
+    padding:60px 20px;
+}
+
+.date{
+    color:#9eb6d8;
+    font-size:18px;
+    margin-bottom:20px;
+    line-height:1.8;
+}
+
+.hall{
+    font-size:17px;
+    color:#555;
+}
+
+.verse{
+    background:white;
+}
+
+.verse-icon{
+    font-size:40px;
+    margin-bottom:20px;
+}
+
+.verse-text{
+    font-size:20px;
+    color:#555;
+    margin-bottom:10px;
+}
+
+.verse-ref{
+    color:#9eb6d8;
+    font-size:15px;
+}
+
+.message{
+    max-width:500px;
+    margin:auto;
+    font-size:17px;
+    color:#666;
+    white-space:pre-line;
+}
+
+.family-text{
+    font-size:18px;
+    line-height:2.2;
+}
+
+.info-text{
+    font-size:18px;
 }
 
 #countdown{
-font-size:28px;
-color:#bf9875;
+    font-size:40px;
+    color:#9eb6d8;
+    font-weight:500;
 }
+
+.gallery img{
+    width:100%;
+    border-radius:20px;
+    margin-bottom:20px;
+}
+
+.location-text{
+    font-size:18px;
+}
+
+button{
+    width:100%;
+    max-width:320px;
+    padding:18px;
+
+    border:none;
+    border-radius:50px;
+
+    background:white;
+    color:#666;
+
+    font-size:16px;
+
+    margin-bottom:15px;
+
+    box-shadow:0 3px 10px rgba(0,0,0,.08);
+
+    cursor:pointer;
+}
+
+button:hover{
+    transform:translateY(-2px);
+    transition:.3s;
+}
+
+.rsvp{
+    padding-bottom:120px;
+}
+```
