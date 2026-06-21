@@ -11,6 +11,8 @@ body{
     font-family:'Noto Serif KR', serif;
     line-height:1.9;
     text-align:center;
+    max-width:500px;
+    margin:auto;
 }
 
 section{
@@ -440,22 +442,14 @@ font-size:22px;
 
 
 .calendar table{
-
-width:100%;
-
-max-width:450px;
-
-margin:auto;
-
-border-collapse:collapse;
-
+    width:100%;
+    max-width:450px;
+    margin:auto;
+    border-collapse:collapse;
 }
 
-.calendar td,
-.calendar th{
-
-padding:15px;
-
+.calendar td,.calendar th{
+    padding:15px;
 }
 
 .wedding-day{
@@ -468,27 +462,17 @@ padding:15px;
 }
 
 footer{
-
-padding:120px 20px;
-
-background:#fff;
-
-font-size:14px;
-
-color:#999;
-
-line-height:2.5;
-
+    padding:120px 20px;
+    background:#fff;
+    font-size:14px;
+    color:#999;
+    line-height:2.5;
 }
 
 .dove{
-
-width:50px;
-
-margin-bottom:25px;
-
-opacity:.7;
-
+    width:50px;
+    margin-bottom:25px;
+    opacity:.7;
 }
 
 .cover{
@@ -497,22 +481,31 @@ opacity:.7;
     animation:coverFade 2s ease;
 }
 
+.wrapper{
+    max-width:500px;
+    margin:auto;
+    background:#fcfbf8;
+}
+
 @keyframes coverFade{
-
-from{
-
-opacity:0;
-
-transform:translateY(30px);
-
+    from{
+        opacity:0;
+        transform:translateY(30px);
+        }
+    to{
+    opacity:1;
+    transform:none;
+    }
 }
 
-to{
+=모바일최적화=
+html{scroll-behavior:smooth;}
+img{max-width:100%;}
+body{overflow-x:hidden;}
 
-opacity:1;
-
-transform:none;
-
-}
-
+=아이폰대응=
+input,
+textarea,
+select{
+font-size:16px;
 }
