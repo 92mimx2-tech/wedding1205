@@ -137,15 +137,43 @@
 
 
 <!-- 갤러리 -->
+```html
+<link
+rel="stylesheet"
+href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+/>
+
 <section class="gallery">
 
-    <h2>GALLERY</h2>
+<h2>GALLERY</h2>
 
-    <img src="images/gallery01.jpg">
-    <img src="images/gallery02.jpg">
-    <img src="images/gallery03.jpg">
+<div class="swiper mySwiper">
+
+<div class="swiper-wrapper">
+
+<div class="swiper-slide">
+<img src="images/gallery01.jpg">
+</div>
+
+<div class="swiper-slide">
+<img src="images/gallery02.jpg">
+</div>
+
+<div class="swiper-slide">
+<img src="images/gallery03.jpg">
+</div>
+
+</div>
+
+<div class="swiper-pagination"></div>
+
+</div>
 
 </section>
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+```
+
 
 
 
