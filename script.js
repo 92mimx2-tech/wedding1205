@@ -113,3 +113,21 @@ behavior:"smooth"
 
 }
 ```
+
+
+```javascript
+new Swiper(".mySwiper",{
+
+loop:true,
+
+pagination:{
+el:".swiper-pagination"
+},
+
+autoplay:{
+delay:3000
+}
+
+});
+```
+
