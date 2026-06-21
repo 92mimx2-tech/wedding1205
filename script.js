@@ -77,26 +77,6 @@ observer.observe(section);
 
 
 
-
-// ======================
-// 이미지 확대
-// ======================
-
-document.querySelectorAll(".gallery img")
-
-.forEach((img)=>{
-
-img.addEventListener("click",()=>{
-
-window.open(img.src);
-
-});
-
-});
-
-
-
-
 // ======================
 // 맨 위로 이동
 // ======================
