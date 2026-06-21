@@ -151,4 +151,35 @@ bgm.pause();
 }
 
 
+Kakao.init('자바스크립트키');
+
+function shareKakao(){
+
+Kakao.Share.sendDefault({
+
+objectType:'feed',
+
+content:{
+
+title:'송태빈 ♥ 정다운',
+
+description:'2026.12.05 SAT AM10:00',
+
+imageUrl:window.location.origin+'/images/main.jpg',
+
+link:{
+
+mobileWebUrl:window.location.href,
+
+webUrl:window.location.href
+
+}
+
+}
+
+});
+
+}
+
+
 
