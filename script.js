@@ -253,3 +253,40 @@ infowindow.open(
 map,
 marker
 );
+
+```javascript
+Kakao.init('여기에_카카오_자바스크립트키');
+
+function shareKakao(){
+
+Kakao.Share.sendDefault({
+
+objectType:'feed',
+
+content:{
+
+title:'송태빈 ♥ 정다운',
+
+description:'2026.12.05 토요일 오전 10시',
+
+imageUrl:
+window.location.origin +
+'/images/main.jpg',
+
+link:{
+
+mobileWebUrl:
+window.location.href,
+
+webUrl:
+window.location.href
+
+}
+
+}
+
+});
+
+}
+```
+
