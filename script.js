@@ -191,14 +191,14 @@ once:true
 });
 
 
-var container =
+var mapContainer =
 document.getElementById('map');
 
-var options = {
+var mapOption = {
 
-center: new kakao.maps.LatLng(
-37.394,
-126.956
+center:new kakao.maps.LatLng(
+37.39279,
+126.95366
 ),
 
 level:3
@@ -207,6 +207,49 @@ level:3
 
 var map =
 new kakao.maps.Map(
-container,
-options
+mapContainer,
+mapOption
+);
+
+
+
+var markerPosition =
+new kakao.maps.LatLng(
+37.39279,
+126.95366
+);
+
+
+
+var marker =
+new kakao.maps.Marker({
+
+position:markerPosition
+
+});
+
+
+
+marker.setMap(map);
+
+
+
+var iwContent =
+
+'<div style="padding:8px;text-align:center;">안양 더파티움<br>라포레홀 7층</div>';
+
+
+
+var infowindow =
+new kakao.maps.InfoWindow({
+
+content:iwContent
+
+});
+
+
+
+infowindow.open(
+map,
+marker
 );
