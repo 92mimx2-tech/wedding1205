@@ -131,3 +131,24 @@ delay:3000
 });
 ```
 
+
+const bgm =
+document.getElementById("bgm");
+
+function musicToggle(){
+
+if(bgm.paused){
+
+bgm.play();
+
+}
+else{
+
+bgm.pause();
+
+}
+
+}
+
+
+
