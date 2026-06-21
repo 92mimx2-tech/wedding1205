@@ -1,105 +1,194 @@
+```html
 <!DOCTYPE html>
 <html lang="ko">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>송태빈 ♥ 정다운</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<link rel="stylesheet" href="style.css">
+    <title>송태빈 ♥ 정다운</title>
 
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="style.css">
 
-<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@300;400;500&display=swap" rel="stylesheet">
+    <!-- 폰트 -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@300;400;500&display=swap" rel="stylesheet">
 </head>
 
 <body>
 
+<!-- 메인 -->
 <section class="cover">
 
-    <img src="images/main.jpg" class="main-photo">
+    <img src="images/main.jpg" class="main-image">
 
     <div class="cover-text">
 
         <h1>송태빈 ♥ 정다운</h1>
 
-        <p>
-            2026년 12월 5일 토요일 오전 10시
-        </p>
+        <div class="date">
+            2026.12.05 SAT<br>
+            AM 10:00
+        </div>
 
-        <p>
-            안양 더파티움 라포레홀 7층
-        </p>
+        <div class="hall">
+            안양 더파티움<br>
+            라포레홀 7층
+        </div>
 
     </div>
 
 </section>
 
 
-<section class="message">
 
-<h2>INVITATION</h2>
+<!-- 성경구절 -->
+<section class="verse">
 
-<p>
+    <div class="verse-icon">
+        🕊
+    </div>
 
-서로 다른 길을 걸어온 두 사람이
+    <p class="verse-text">
+        너희 모든 일을 사랑으로 행하라
+    </p>
 
-이제 같은 곳을 바라보며
-
-평생을 함께 걸어가려 합니다.
-
-소중한 분들을 모시고
-
-행복한 시작의 순간을 함께하고자 합니다.
-
-부디 오셔서 축복해 주시면 감사하겠습니다.
-
-</p>
+    <p class="verse-ref">
+        고린도전서 16:14
+    </p>
 
 </section>
 
 
 
-<section class="day">
+<!-- 초대글 -->
+<section class="invitation">
 
-<h2>D-DAY</h2>
+    <h2>INVITATION</h2>
 
-<div id="countdown"></div>
+    <div class="message">
+
+        서로 다른 길을 걸어온 두 사람이
+
+        이제 같은 곳을 바라보며
+
+        평생을 함께 걸어가려 합니다.
+
+        소중한 분들을 모시고
+
+        행복한 시작의 순간을 함께하고자 합니다.
+
+        부디 오셔서 축복해 주시면 감사하겠습니다.
+
+    </div>
 
 </section>
 
 
 
+<!-- 혼주 소개 -->
+<section class="family">
+
+    <div class="family-text">
+
+        송학식 · 서미순의 아들 태빈
+
+        <br><br>
+
+        정현명 · 이금주의 딸 다운
+
+    </div>
+
+</section>
+
+
+
+<!-- 예식 정보 -->
+<section class="wedding-info">
+
+    <h2>WEDDING DAY</h2>
+
+    <div class="info-text">
+
+        2026년 12월 5일 토요일 오전 10시
+
+        <br><br>
+
+        안양 더파티움 라포레홀 7층
+
+    </div>
+
+</section>
+
+
+
+<!-- D-day -->
+<section class="dday">
+
+    <h2>D-DAY</h2>
+
+    <div id="countdown">
+        D-000
+    </div>
+
+</section>
+
+
+
+<!-- 갤러리 -->
 <section class="gallery">
 
-<h2>GALLERY</h2>
+    <h2>GALLERY</h2>
 
-<img src="images/gallery1.jpg">
-
-<img src="images/gallery2.jpg">
-
-<img src="images/gallery3.jpg">
+    <img src="images/gallery01.jpg">
+    <img src="images/gallery02.jpg">
+    <img src="images/gallery03.jpg">
 
 </section>
 
 
 
+<!-- 오시는 길 -->
 <section class="location">
 
-<h2>LOCATION</h2>
+    <h2>LOCATION</h2>
 
-<p>
+    <div class="location-text">
 
-안양 더파티움<br>
-라포레홀 7층
+        안양 더파티움 라포레홀 7층
 
-</p>
+    </div>
 
 </section>
 
 
+
+<!-- 마음 전하실 곳 -->
+<section class="account">
+
+    <h2>ACCOUNT</h2>
+
+    <button>신랑측 계좌</button>
+
+    <button>신부측 계좌</button>
+
+</section>
+
+
+
+<!-- 참석 여부 -->
+<section class="rsvp">
+
+    <h2>RSVP</h2>
+
+</section>
+
+
+
+<script src="config.js"></script>
 <script src="script.js"></script>
 
 </body>
 </html>
+```
