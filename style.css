@@ -372,3 +372,23 @@ line-height:2;
 }
 ```
 
+#progress-bar{
+
+position:fixed;
+
+top:0;
+
+left:0;
+
+width:0;
+
+height:4px;
+
+background:#9eb6d8;
+
+z-index:99999;
+
+transition:.2s;
+
+}
+
