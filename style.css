@@ -252,3 +252,25 @@ color:#999;
 background:white;
 
 }
+
+.music-btn{
+
+position:fixed;
+
+top:20px;
+
+right:20px;
+
+width:55px;
+
+height:55px;
+
+border-radius:50%;
+
+z-index:9999;
+
+background:white;
+
+box-shadow:0 2px 15px rgba(0,0,0,.15);
+
+}
